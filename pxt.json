@@ -1,0 +1,28 @@
+{
+    "name": "HumiditySensor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.0.9",
+        "dfplayer": "github:lioujj/pxt-mp3#38a9b70595947ecbc0f3216e5fb746af10371bbf"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
